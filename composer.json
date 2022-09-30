@@ -1,0 +1,39 @@
+{
+    "name": "codeterium/yii2-assist",
+    "description": "Codeterium assistant classes for yii2",
+    "type": "yii2-extension",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "keywords": [
+        "yii2",
+        "extension"
+    ],
+    "homepage": "https://github.com/Codeterium/yii2-assist",
+    "require": {
+        "php": ">=5.0.3",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-jui": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "codeterium\\yii2assist\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "codeterium",
+            "email": "codeterium@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Codeterium/yii2-assist"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
